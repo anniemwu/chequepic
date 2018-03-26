@@ -31,7 +31,7 @@ INSERT INTO users(first_name, last_name, age, picture_url) VALUES(?, ?, ?, ?)"""
 elem.execute("""UPDATE users SET age = ? WHERE id = 2""", (31,))
 
 for id in range(1,3):
-    elem.execute("""SELECT id, first_name, last_name, age FROM users WHERE id=?""", (id,))
+    elem.execute("""SELECT id, first_name, last_name, age, picture_url FROM users WHERE id=?""", (id,))
     response = elem.fetchone()
     print(response)
     
