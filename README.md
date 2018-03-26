@@ -19,7 +19,11 @@ To build the project, first install all relevant packages using pip:
 
 ## Collaborators
 > Danivirya Hang
+
 > Farah Kamar
+
 > Marie Thibaut
+
 > Ayesha Warsi
+
 > Annie Wu
